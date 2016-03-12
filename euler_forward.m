@@ -4,8 +4,8 @@ xcurrent=x0;
 ycurrent=y0;
 divcurrent=0;
 while (xcurrent<xs)
-  ycurrent=f(xcurrent)+h*f'(xcurrent);
+  ycurrent=ycurrent+h*f(xcurrent,ycurrent);
   xcurrent=xcurrent+h;
 end
-y = x;
+y = ycurrent;
 end

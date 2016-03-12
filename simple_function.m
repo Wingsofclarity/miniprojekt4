@@ -1,3 +1,3 @@
-function y = (x);
-y = x;
+function y = simple_function(a,b)
+y = a+b;
 end
