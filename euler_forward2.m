@@ -12,6 +12,7 @@ while (xcurrent<xs)
   q(2,i) = ycurrent(1);
   q(3,i) = ycurrent(2);
   q(1,i) = xcurrent;
+
   ycurrent=ycurrent+h*f(xcurrent,ycurrent);
 
 
