@@ -1,8 +1,0 @@
-function yb = bungee_mass(t, y, yp,48)
-
-if(y < 48)
-  yb = (686-sign(yp)*0.227*yp^2)/70;
-else
-  yb = (686-sign(yp)*0.227*yp^2-10*(y-48))/70;
-end
-end
